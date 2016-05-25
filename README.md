@@ -30,7 +30,7 @@ At present, I've only got one type of helper (`botRequest`) for simple getters, 
 
 e.g. Below uses `onlineNames` method, which returns array of names of online users (not including bots).
 
-Might output something like 'Robert, Desmond and Billie are currently online'.
+Listens for *"who is online"* and replies with something like *"Robert, Desmond and Billie are currently online"*.
 
 ```
 # Use Bot Helpers class to check who's online
