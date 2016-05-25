@@ -14,7 +14,7 @@ Due to that double dependency, it might have made sense to contribute these meth
 
 ## Install
 
-It's still unclear what's the best way to add custom per-instance packages to Rocket.chat, see [this issue](TODO:ISSUE_LINK) for more on that.
+It's still unclear what's the best way to add custom per-instance packages to Rocket.chat, see [this issue](https://github.com/RocketChat/Rocket.Chat/issues/1859) for more on that.
 
 If the package repo is public, you can just use `meteor add timkinnane:rocketchat-bot-helpers`.
 
