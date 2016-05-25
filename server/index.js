@@ -69,7 +69,8 @@ class BotHelper {
 
 }
 
-// add class to meteor methods
+// add class to meteor methods (BotHelper accepts options)
+// TODO: Let constructor options be passed in through another method (to override defaults)
 const botHelper = new BotHelper();
 Meteor.methods({
   botRequest: (...args) => botHelper.request(...args)
