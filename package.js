@@ -1,7 +1,7 @@
 Package.describe({
-  name: 'timkinnane:rocketchat-bot-methods',
+  name: 'timkinnane:rocketchat-bot-helpers',
   version: '0.0.1',
-  summary: 'Add some methods to Rocket.Chat for bots to use.',
+  summary: 'Add some helper methods to Rocket.Chat for bots to use.',
   git: ''
 })
 
@@ -22,6 +22,6 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   // api.use('ecmascript');
   // api.use('tinytest');
-  // api.use('timkinnane:rocketchat-bot-methods');
-  // api.mainModule('rocketchat-bot-methods-tests.js');
+  // api.use('timkinnane:rocketchat-bot-helpers');
+  // api.mainModule('rocketchat-bot-helpers-tests.js');
 });
